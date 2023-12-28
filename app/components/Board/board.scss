@@ -1,0 +1,15 @@
+.status {
+  margin-top: 25%;
+  font-family: "Press Start 2P";
+  color: white;
+}
+
+.board {
+  margin-top: 30px;
+
+  &-row {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}

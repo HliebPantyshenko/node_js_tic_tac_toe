@@ -1,6 +1,7 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import Board from "../Board/board";
+import "./game.scss";
 
 const Game: React.FC = () => {
   const [history, setHistory] = useState<(string | null)[][]>([
@@ -31,7 +32,6 @@ const Game: React.FC = () => {
           </button>
         </div>
       </>
-      
     );
   });
 
